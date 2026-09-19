@@ -130,7 +130,7 @@ function App() {
         <div className="shell header-inner">
           <a href="#beranda" className="brand" onClick={closeMenu}>
             <span className="brand-mark">
-              <img src="/assets/nile-logo.webp" alt="Nile Group" />
+              <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuBJcgrr8jN1hE0c2PoYdQBw2qnY8Q0TRVyfTzk3xa-gvz-HTbGsy7r5L6is3O5R0XkiRjqJe6J1r23t7AsmH2V8D_bS1ajQTCWA-Bleri2gFjh-x44oqjs8eBokwbW3Iux-FcmmZ8Weft7NoObkLEBodtyBEBv1vhFiqkDRa345ArOetNNnMNduKcEZ4a3zTr21HAfQw5wyzDjSFugat8qA4rj_O2lJmaBLtSZz26d3KEECT6C9XMxn0pOWcgBwuMWbyqo" alt="Nile Group" />
             </span>
             <span className="brand-copy">
               <strong>NILE GROUP</strong>
@@ -181,7 +181,7 @@ function App() {
 
       <main>
         <section id="beranda" className="hero">
-          <img className="hero-bg" src="/assets/nile-hero.webp" alt="" aria-hidden="true" />
+          <img className="hero-bg" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDx4-RCs8_lxqV4EEi62YJRzTzN75oeZxR_rYeu_604Ouz5AJh2aw52rFc4CfulLsmSazDm8twgRYr5_K-Z04x7lsRt_4FaRhbKEx3FaFzRHNOYBFKnRG5gNLC__Zn0KmdpxEhMaN3XqPdRqmScYZuwpDEwIBWFshr3B5yGY_sClCc_Wn2CWVUIoSiifw4t6fIXHM4ZpnirAAG1sKoyzRGCPXAYvinolH8IaAI0vvs9sxpOXUML07PIgqKnRARNS-DAgXI" alt="" aria-hidden="true" />
           <div className="hero-shade" />
           <div className="shell hero-grid">
             <div className="hero-copy">
@@ -410,7 +410,7 @@ function App() {
                 <span className="eyebrow light">SEBELUM BERANGKAT</span>
                 <h2>Tiga hal yang sebaiknya disiapkan lebih awal.</h2>
               </div>
-              <p>Konten informatif menggantikan artikel generik agar halaman lebih fokus pada keputusan calon pelanggan.</p>
+              <p>Panduan ringkas untuk membantu Anda mempersiapkan kebutuhan penting sebelum berangkat.</p>
             </div>
             <div className="guide-grid">
               <article><span>01</span><h3>Tujuan & tanggal perjalanan</h3><p>Tentukan tujuan utama, kota, tanggal, durasi, dan jumlah peserta agar kebutuhan bisa dihitung dengan lebih tepat.</p></article>
@@ -484,7 +484,7 @@ function App() {
         <div className="shell footer-grid">
           <div className="footer-brand">
             <span className="brand-mark footer-mark">
-              <img src="/assets/nile-logo.webp" alt="Nile Group" />
+              <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuBJcgrr8jN1hE0c2PoYdQBw2qnY8Q0TRVyfTzk3xa-gvz-HTbGsy7r5L6is3O5R0XkiRjqJe6J1r23t7AsmH2V8D_bS1ajQTCWA-Bleri2gFjh-x44oqjs8eBokwbW3Iux-FcmmZ8Weft7NoObkLEBodtyBEBv1vhFiqkDRa345ArOetNNnMNduKcEZ4a3zTr21HAfQw5wyzDjSFugat8qA4rj_O2lJmaBLtSZz26d3KEECT6C9XMxn0pOWcgBwuMWbyqo" alt="Nile Group" />
             </span>
             <div>
               <strong>NILE GROUP</strong>
