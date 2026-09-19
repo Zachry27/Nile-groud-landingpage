@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-green: #0c2c23;
+  --color-brand-green-hover: #071f19;
+  --color-brand-gold: #c59d5f;
+  --color-brand-gold-dark: #9f7838;
+  --color-brand-sand: #fcfaf7;
+  --color-brand-sand-card: #fbf8f2;
+  --color-brand-cream: #faf6ee;
+  --color-brand-charcoal: #1c1c1c;
+  --color-brand-muted: #686663;
+
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.hero-container {
+  position: relative;
+  background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDx4-RCs8_lxqV4EEi62YJRzTzN75oeZxR_rYeu_604Ouz5AJh2aw52rFc4CfulLsmSazDm8twgRYr5_K-Z04x7lsRt_4FaRhbKEx3FaFzRHNOYBFKnRG5gNLC__Zn0KmdpxEhMaN3XqPdRqmScYZuwpDEwIBWFshr3B5yGY_sClCc_Wn2CWVUIoSiifw4t6fIXHM4ZpnirAAG1sKoyzRGCPXAYvinolH8IaAI0vvs9sxpOXUML07PIgqKnRARNS-DAgXI');
+  background-position: center 20%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero-overlay {
+  background: linear-gradient(
+    to right,
+    rgba(252, 250, 247, 0.96) 0%,
+    rgba(252, 250, 247, 0.90) 34%,
+    rgba(252, 250, 247, 0.45) 58%,
+    rgba(252, 250, 247, 0.15) 100%
+  );
+}
+
+@media (max-width: 1024px) {
+  .hero-overlay {
+    background: linear-gradient(
+      to bottom,
+      rgba(252, 250, 247, 0.95) 0%,
+      rgba(252, 250, 247, 0.90) 60%,
+      rgba(252, 250, 247, 0.70) 100%
+    );
+  }
+}
+
+.glass-stats {
+  background: rgba(255, 255, 255, 0.78);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.85);
+}

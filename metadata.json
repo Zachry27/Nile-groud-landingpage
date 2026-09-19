@@ -1,0 +1,6 @@
+{
+  "name": "Nile Group - Layanan Mesir Terpercaya",
+  "description": "Jembatan kebaikan untuk perjalanan ibadah, pendidikan Al-Azhar, bisnis, dan layanan pendukung di Mesir.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
